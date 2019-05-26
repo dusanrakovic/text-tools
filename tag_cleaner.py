@@ -1,6 +1,5 @@
 """
 Simple tool for cleaning HTML tags and newlines from string.
-
 """
 
 import re
