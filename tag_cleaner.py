@@ -10,4 +10,4 @@ def clean_tags(self):
     del_back_tags = re.sub('<\s*\/\s*\w\s*.*?>|<\s*br\s*>', '', del_front_tags)
     stripped = del_back_tags.rstrip()
     cleaned_text = re.sub('\n', ' ', stripped)
-    return(cleaned_text)
+    return cleaned_text
