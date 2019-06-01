@@ -7,4 +7,4 @@ from collections import Counter
 def counting(self):
     """ Counting word from list. """
     counted_words = Counter(self)
-    return(counted_words)
+    return counted_words
