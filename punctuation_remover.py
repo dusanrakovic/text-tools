@@ -8,4 +8,4 @@ import re
 def remove_punct(self):
 	"""Remove standard punctuation marks from given string"""
     text_without_punctuation = re.sub('[,\.\'\"\?\(\)!:;\[\]\{\}]', '', self)
-    return(text_without_punctuation)
+    return text_without_punctuation
