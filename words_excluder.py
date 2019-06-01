@@ -12,4 +12,4 @@ def exclude_by_length(self):
         if len(item) >= user_input:
             longer_words.append(item)
 
-    return(longer_words)
+    return longer_words
